@@ -29,4 +29,11 @@ public final class ContextConstant {
             "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2804051558,2551131096&fm=27&gp=0.jpg",
             "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2961154707,154385826&fm=27&gp=0.jpg"
     };
+
+
+    public static final String[] urls=new String[]{
+            "https://www.baidu.com/",
+            "http://www.qq.com/",
+            "http://www.163.com/"
+    };
 }

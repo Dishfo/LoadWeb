@@ -1,6 +1,7 @@
 package com.example.dishfo.loadandcache.context;
 
 import android.app.Application;
+import android.webkit.WebView;
 
 import com.example.dishfo.loadandcache.data.imageloader.ImageLoader;
 import com.example.dishfo.loadandcache.data.manager.LoadEngine;
@@ -8,7 +9,10 @@ import com.example.dishfo.loadandcache.data.manager.LoadEngine;
 public class MyApplication extends Application{
 
     private ImageLoader imageLoader;
+
     private LoadEngine loadEngine;
+
+    private WebView webView;
 
     @Override
     public void onCreate() {
